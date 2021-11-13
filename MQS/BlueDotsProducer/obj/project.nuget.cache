@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "KxuwPBVoS8DK+8uVU095JhNnWS7tHNoMb2sJv//IhLOwMXcFhVpvsBeR2zRtQjY4dvMOmK6TSlmKf/O7C5Eyvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a764843\\Documents\\Studium\\Projektarbeit 2\\PA 2 Implementierungen\\PA 2 Implementierung\\MQS\\BlueDotsProducer\\BlueDotsProducer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a764843\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\a764843\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\a764843\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
+    "C:\\Users\\a764843\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\a764843\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

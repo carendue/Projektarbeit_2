@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "BlobsClient1": {
+      "commandName": "Project",
+      "commandLineArgs": "5001"
+    },
+    "BlobsClient2": {
+      "commandName": "Project",
+      "commandLineArgs": "6001"
+    },
+    "BlobsClient3": {
+      "commandName": "Project",
+      "commandLineArgs": "8001"
+    }
+  }
+}

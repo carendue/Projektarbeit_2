@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "BlueDotsConsumer_A": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "A"
+      }
+    },
+    "BlueDotsConsumer_B": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "B"
+      }
+    },
+    "BlueDotsConsumer_C": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "C"
+      }
+    }
+  }
+}

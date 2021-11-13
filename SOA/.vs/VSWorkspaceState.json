@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlobsClient",
+    "\\BlobsClient\\bin",
+    "\\BlobsClient\\bin\\Debug",
+    "\\BlobsClient\\bin\\Debug\\net5.0",
+    "\\BlobsClient\\bin\\Debug\\net5.0\\ref",
+    "\\BlobsClient\\bin\\Release",
+    "\\BlobsClient\\bin\\Release\\net5.0",
+    "\\BlobsClient\\bin\\Release\\net5.0\\ref",
+    "\\BlobsClient\\obj"
+  ],
+  "SelectedNode": "\\BlobsClient\\bin\\Debug\\net5.0",
+  "PreviewInSolutionExplorer": false
+}

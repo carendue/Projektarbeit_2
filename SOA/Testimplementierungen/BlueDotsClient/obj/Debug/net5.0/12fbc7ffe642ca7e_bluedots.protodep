@@ -1,0 +1,4 @@
+obj\Debug\net5.0\Protos/Bluedots.cs \
+obj\Debug\net5.0\Protos/BluedotsGrpc.cs: C:/Users/A764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/A764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/empty.proto\
+ Protos/bluedots.proto

@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "BlueDotsProducer_A": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "A"
+      }
+    },
+    "BlueDotsProducer_B": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "B"
+      }
+    },
+    "BlueDotsProducer_C": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "C"
+      }
+    }
+  }
+}

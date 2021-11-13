@@ -1,0 +1,70 @@
+﻿{
+  "profiles": {
+    "BlueDotsServer_A": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "A"
+      }
+    },
+    "BlueDotsServer_B": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:6000;https://localhost:6001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "B"
+      }
+    },
+
+    "BlueDotsServer_C": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:8000;https://localhost:8001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "C"
+      }
+    },
+
+    "BlobsServer_A": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "A"
+      }
+    },
+
+    "BlobsServer_B": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "commandLineArgs": "--name B",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:6000;https://localhost:6001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "B"
+      }
+    },
+
+    "BlobsServer_C": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "commandLineArgs": "--name C",
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:8000;https://localhost:8001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_NAME": "C"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "BlobsConsumer_A": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "A"
+      }
+    },
+    "BlobsConsumer_B": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "B"
+      }
+    },
+    "BlobsConsumer_C": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_NAME": "C"
+      }
+    }
+  }
+}

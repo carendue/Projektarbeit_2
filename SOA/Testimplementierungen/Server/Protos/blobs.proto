@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "BlobsServer";
+
+
+package blobs;
+
+service Update {
+  rpc NewBlob (stream blob) returns (stream blob);
+  rpc GetHistory(google.protobuf.Empty) returns (stream history);
+}
+
+service MeshUpdate {
+  rpc NewBlob (stream blob) returns (google.protobuf.Empty);
+}
+
+message blob {
+ google.protobuf.Timestamp timestamp = 1;
+ bytes image = 2;
+}
+
+message history{
+	string history = 1;
+}

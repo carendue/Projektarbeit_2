@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "BlueDotsServer";
+
+package bluedot;
+
+service Update {
+  rpc NewBlueDot (stream bluedot) returns (stream bluedot);
+  rpc GetHistory(google.protobuf.Empty) returns (stream history);
+}
+
+service MeshUpdate {
+  rpc NewBlueDot (stream bluedot) returns (google.protobuf.Empty);
+}
+
+ message Geolocation{
+ 	double latitude = 1;
+	double longitutde = 2;
+ }
+
+message bluedot {
+	 google.protobuf.Timestamp timestamp = 1;
+	 Geolocation geolocation = 2;
+	 string unitID = 3;
+}
+
+message history{
+	string history = 1;
+}
+
