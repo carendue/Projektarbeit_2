@@ -120,8 +120,6 @@ namespace BDsConsumer
                         }
 
                         var senderID = ea.BasicProperties.MessageId;
-                        //var nameVal = myName.Value;
-                        //var rK = nameVal + senderID;
                         var rK = senderID;
                         var msg = $"The consumer {myName.Value} received and processed the bluedot you sent.\n";
                         var msgBytes = Encoding.UTF8.GetBytes(msg);

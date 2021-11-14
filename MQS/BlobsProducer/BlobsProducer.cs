@@ -70,7 +70,6 @@ namespace BlobsProducer
                 allHistoryReceived.WaitOne();
                 Console.WriteLine($"Received {historyEntriesReceived} history entries");
                 Console.WriteLine("----------------------------------------------------------------------------------------------------\n");
-                //channel.QueueUnbind(queue: historyQueue, exchange: "history", routingKey: rK);
 
                 channel.ExchangeDeclare(exchange: "blobs", type: ExchangeType.Fanout);
                 Guid clientID = Guid.NewGuid();
@@ -109,7 +108,6 @@ namespace BlobsProducer
                 {
                     var body = ea.Body.ToArray();
                     var msg = Encoding.UTF8.GetString(body);
-                    //Console.WriteLine(msg);
                     var ackConsumer = ea.BasicProperties.MessageId;
                     if (ackConsumer == "A")
                     {
@@ -129,9 +127,7 @@ namespace BlobsProducer
                         var timeUntilC = timerC.ElapsedMilliseconds;
                         Console.WriteLine($"{timeUntilC} ms until we received the ack from C.");
                     }
-                    //timer.Stop();
-                    //var timeUntilAck = timer.ElapsedMilliseconds;
-                    //Console.WriteLine(timeUntilAck + " ms until we received the message:\n" + msg + "\n");
+
                 };
 
                 while (true)
@@ -161,7 +157,6 @@ namespace BlobsProducer
                     try
                     {
                         Console.WriteLine($"\nSending a new Blob at {DateTime.Now}:{DateTime.Now.Millisecond}.\n");
-                        //timer.Start();
                         timerA.Start();
                         timerB.Start();
                         timerC.Start();
