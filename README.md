@@ -1,3 +1,3 @@
 # Projektarbeit_2
 
-In dem Ordner "MQS" befindet sich der Quellcode für die nachrichtenbasierte Testimplementierung. Der Ordner "SOA" enthält den Quellcode für die serviceorientierte Testimplementierung.
+In diesem Repository befindet sich der Quellcode, der zur Erstellung meiner zweiten Projektarbeit an der DHBW dient. Dabei handelt es sich um zwei Testimplementierungen, wobei die eine nachrichtenbasiert und die andere serviceorientiert aufgebaut ist. Es werden zum einen sehr große Datenpakete und zum anderen sehr viele, kleine Datenpakete versendet. Diese Datenpakete sollen alle Komponenten des verteilten Systems erreichen. In dem Ordner "MQS" befindet sich der Quellcode für die nachrichtenbasierte Testimplementierung. Der Ordner "SOA" enthält den Quellcode für die serviceorientierte Testimplementierung. Das Message Queuing System wurde mithilfe von RabbitMQ und die SOA durch gRPC umgesetzt. 
