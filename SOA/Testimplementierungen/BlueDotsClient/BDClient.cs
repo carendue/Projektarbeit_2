@@ -33,6 +33,8 @@ namespace BlueDotsClient
                 }
             });
 
+            // Codeanpassungen für die Messung von 1.000 Blue Dots
+
             //Console.WriteLine($"I'm starting to send 1.000 Blue Dots. It's {DateTime.Now}:{DateTime.Now.Millisecond}");
             //for (int i = 0; i < 1000; i++)
             //{
@@ -51,7 +53,6 @@ namespace BlueDotsClient
 
             //    try
             //    {
-            //        //Console.WriteLine($"I am sending a new BlueDot at {DateTime.Now}:{DateTime.Now.Millisecond}.\nID: {unitID}\n");
             //        await stream.RequestStream.WriteAsync(new bluedot
             //        {
             //            Timestamp = timestamp,

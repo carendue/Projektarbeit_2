@@ -1,4 +1,4 @@
 obj\Debug\net5.0\Protos/Blobs.cs \
-obj\Debug\net5.0\Protos/BlobsGrpc.cs: C:/Users/A764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/timestamp.proto\
- C:/Users/A764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/empty.proto\
+obj\Debug\net5.0\Protos/BlobsGrpc.cs: C:/Users/a764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/a764843/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/empty.proto\
  Protos/blobs.proto
